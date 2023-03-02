@@ -33,7 +33,7 @@
     "enzyme-adapter-react-16": "^1.15.2",
     "jsdom": "16.2.0",
     "jsdom-global": "3.0.2",
-    "mocha": "^5.2.0",
+    "mocha": "^10.2.0",
     "sinon": "^6.3.5"
   }
 }
