@@ -19,7 +19,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "mocha --timeout 5000 -w test/helpers.js test/*.js",
+    "test": "mocha -R mocha-multi --reporter-options spec=-,json=.results.json --exit",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
